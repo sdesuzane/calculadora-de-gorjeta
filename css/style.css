@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+/* variavel */
+:root {
+    --primary-color: #5C2751;
+    --secondary-color: #9C428A;
+    --tertiary-color: #A84795;
+}
+
+body {
+    background-color: var(--primary-color);
+    font-size: 15px;
+}
+
+.title {
+    font-family: 'Lilita One', cursive;
+    background: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 20px;
+    /* text-transform: uppercase; */
+    /* font-size: 20px; */
+    font-weight: normal;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+}
+
+.container {
+    height: 550px;
+    width: 360px;
+
+    /* colocando auto na margem, deixa centralizado dando 100px pra cada lado de margem */
+    margin: 100px auto;
+    background: var(--primary-color);
+    box-shadow: 0 0 10px var(--tertiary-color);
+    border-radius: 20px;
+    color: white;
+}
+
+.tipsform {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.form-input {
+    background: white;
+    width: 80px;
+    padding: 5px 5px 8px 8px;
+}
+
+.form-input:focus {
+    border: 3px solid var(--secondary-color);
+    outline: none;
+}
+
+.form-select {
+    width: 180px;
+    padding: 7px;
+    font-size: 13px;
+}
+
+.form-submit {
+    font-family: 'Lilita One', cursive;
+    box-shadow: 0 0 10px var(--tertiary-color);
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 30px auto;
+    background: var(--secondary-color);
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    color: var(--primary-color);
+}
+
+#totalTips {
+    font-size: 20px;
+    margin-top: 5px;
+    text-align: center;
+}
