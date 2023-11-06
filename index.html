@@ -18,13 +18,11 @@
                 <label for="bill">
                     <p>Quanto ficou a conta?</p>
                 </label>
-                <!--por ser do tipo numerico o navegador coloca as setas ao lado-->
                 <p>R$ <input type="number" placeholder="Valor" name="bill" id="bill" class="form-input" required></p>
                 <label for="serviceQual">
                     <p>Como foi seu serviço?</p>
                 </label>
                 <p>
-                    <!--o name do select tem que ser o mesmo que está no for do label, select serve para selecionar valores pré definidos-->
                     <select name="serviceQual" id="serviceQual" class="form-select" required>
                         <option disabled selected>Selecione uma opção</option>
                         <option value="0.3">30% - Incrível</option>
@@ -47,15 +45,11 @@
         <div id="totalTips">
             Gorjeta Total:
             R$<span id="tip">0.00</span>
-
-            <!--esse id vai mostrar só quando houver mais de uma pessoa para dividir a gorjeta-->
             <p id="each">cada</p>
         </div>
     </div>
 
 </body>
-
-<!--normalmente fica embaixo para não rodar antes do html na página-->
 <script type="text/javascript" src="js/script.js"></script>
 
 </html>
