@@ -4,10 +4,9 @@
     box-sizing: border-box;
 }
 
-/* variavel */
 :root {
-    --primary-color: #5C2751;
-    --secondary-color: #9C428A;
+    --primary-color: #2d2f31;
+    --secondary-color: #3CB371;
     --tertiary-color: #A84795;
 }
 
@@ -21,8 +20,6 @@ body {
     background: var(--secondary-color);
     color: var(--primary-color);
     padding: 20px;
-    /* text-transform: uppercase; */
-    /* font-size: 20px; */
     font-weight: normal;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -32,11 +29,9 @@ body {
 .container {
     height: 550px;
     width: 360px;
-
-    /* colocando auto na margem, deixa centralizado dando 100px pra cada lado de margem */
     margin: 100px auto;
     background: var(--primary-color);
-    box-shadow: 0 0 10px var(--tertiary-color);
+    box-shadow: 0 0 8px var(--tertiary-color);
     border-radius: 20px;
     color: white;
 }
@@ -65,7 +60,7 @@ body {
 
 .form-submit {
     font-family: 'Lilita One', cursive;
-    box-shadow: 0 0 10px var(--tertiary-color);
+    box-shadow: 0 0 8px var(--tertiary-color);
     text-transform: uppercase;
     font-weight: bold;
     display: block;
